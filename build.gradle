@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+group = 'test'
+
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
+dependencies {
+	testImplementation 'org.junit.jupiter:junit-jupiter:5.+'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.+'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+wrapper {
+    gradleVersion = '6.3'
+}

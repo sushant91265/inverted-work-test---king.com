@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.WorkerImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-03T13:49:51" hostname="Sams-MacBook-Pro.local" time="1.098">
+  <properties/>
+  <testcase name="testConcurrency()" classname="test.WorkerImplTest" time="1.098"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
